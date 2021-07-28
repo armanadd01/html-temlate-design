@@ -1,0 +1,29 @@
+/*fonts imported here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+ 
+ /*utility styles here*/
+ body {
+ 	font-family: 'Poppins', sans-serif;
+ }
+
+/*header style starts here*/
+.header {
+	background-color: #264653;
+}
+/*feature section styles*/
+.feture_bike_image .gray {
+	filter: grayscale(100%);
+}
+/*feature section styles*/
+.client_image {
+	max-width: 50%;
+	height: auto;
+}
+/*feature section styles*/
+.services {
+	background-image: url("../images/service-bg.jpg");
+	background-color: #264653;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
